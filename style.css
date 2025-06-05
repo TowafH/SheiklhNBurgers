@@ -5,6 +5,8 @@ html, body {
     margin: 0;
     overflow-x: hidden;
     background-color: #262022;
+    height: 100vh;
+    overflow: auto;
 }
 
 h1 {
@@ -351,7 +353,6 @@ h1 {
     justify-content: space-between; 
     align-items: center; 
     box-sizing: border-box; 
-    height: 100%;
 }
 
 .footer-logo {
@@ -367,7 +368,6 @@ h1 {
     align-items: center;
     text-align: center; 
     gap: 0.5em; 
-    height: 100%;
 }
 
 /* Responsive Footer */
